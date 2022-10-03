@@ -5,7 +5,6 @@ import { useSigner } from "wagmi";
 export const SocketBridge = () => {
   const { data: signer } = useSigner();
   const DynamicBridge = dynamic(
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
     () => import("@socket.tech/widget").then((mod) => mod.Bridge),
     {
@@ -13,11 +12,10 @@ export const SocketBridge = () => {
     }
   );
 
-  const web3Provider =
-    !!signer && new ethers.providers.Web3Provider((signer?.provider).provider);
+  // @ts-ignore
+  const web3Provider = !!signer && new ethers.providers.Web3Provider((signer?.provider).provider);
   return (
     <DynamicBridge
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
       API_KEY={"645b2c8c-5825-4930-baf3-d9b997fcd88c"}
       provider={web3Provider}
