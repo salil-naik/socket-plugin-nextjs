@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@rainbow-me/rainbowkit": "^0.5.1",
-    "@socket.tech/widget": "file:socket.tech-widget-0.1.4-slippage.tgz",
+    "@socket.tech/widget": "file:socket.tech-widget-0.1.4-updated.tgz",
     "connectkit": "^0.0.2",
     "ethers": "^5.7.0",
     "next": "12.2.5",

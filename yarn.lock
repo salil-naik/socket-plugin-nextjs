@@ -860,10 +860,10 @@
   "resolved" "https://registry.npmjs.org/@socket.tech/ll-core/-/ll-core-0.1.19.tgz"
   "version" "0.1.19"
 
-"@socket.tech/socket-v2-sdk@^1.20.0":
-  "integrity" "sha512-Mc1snZome2OnwHX+hNve+owJHyG+1TOmqz3Yld+ImxeRH8lceSVE8J3cQwGY6JenIv4VFcuQuOI7lCcUxcDcsw=="
-  "resolved" "https://registry.npmjs.org/@socket.tech/socket-v2-sdk/-/socket-v2-sdk-1.20.0.tgz"
-  "version" "1.20.0"
+"@socket.tech/socket-v2-sdk@^1.21.0":
+  "integrity" "sha512-HymWCxG07Evc/LqE4FU9Uzt3GXbZSNT5gFEDGKFVGMUEMZu5V0MG1XORD4p3mrapqDO0e8N5VlUIRgyP3ezmzg=="
+  "resolved" "https://registry.npmjs.org/@socket.tech/socket-v2-sdk/-/socket-v2-sdk-1.21.0.tgz"
+  "version" "1.21.0"
   dependencies:
     "@socket.tech/ll-core" "^0.1.14"
     "axios" "^0.27.2"
@@ -871,15 +871,15 @@
     "form-data" "^4.0.0"
     "tslib" "^2.4.0"
 
-"@socket.tech/widget@file:socket.tech-widget-0.1.4-slippage.tgz":
-  "integrity" "sha512-G97dJQGMW6FX/VYoFYlaJ9BWUoAqQHQQuqSslnR2Cb9PjkXg7v0UDHbji5d5ohhAwJoqG47aLntEWPpUHXPciQ=="
-  "resolved" "file:socket.tech-widget-0.1.4-slippage.tgz"
-  "version" "0.1.4-slippage"
+"@socket.tech/widget@file:socket.tech-widget-0.1.4-updated.tgz":
+  "integrity" "sha512-JOAGxE839KQ7FHPG+9P7149dcVOO+xNzbos9S+JomsP4i+c17lKjmLajDEhKNE/q83aEVDDiehcO5/j9FBXGNA=="
+  "resolved" "file:socket.tech-widget-0.1.4-updated.tgz"
+  "version" "0.1.4-updated"
   dependencies:
     "@react-spring/web" "^9.5.0"
     "@reduxjs/toolkit" "^1.8.2"
     "@socket.tech/ll-core" "^0.1.10"
-    "@socket.tech/socket-v2-sdk" "^1.20.0"
+    "@socket.tech/socket-v2-sdk" "^1.21.0"
     "ethers" "^5.6.9"
     "react-feather" "^2.0.10"
     "react-redux" "^8.0.2"
