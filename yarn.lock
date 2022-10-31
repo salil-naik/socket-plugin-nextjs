@@ -841,9 +841,9 @@
     "@react-spring/types" "~9.5.5"
 
 "@reduxjs/toolkit@^1.8.2":
-  "integrity" "sha512-f4D5EXO7A7Xq35T0zRbWq5kJQyXzzscnHKmjnu2+37B3rwHU6mX9PYlbfXdnxcY6P/7zfmjhgan0Z+yuOfeBmA=="
-  "resolved" "https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-1.8.5.tgz"
-  "version" "1.8.5"
+  "integrity" "sha512-4Ia/Loc6WLmdSOzi7k5ff7dLK8CgG2b8aqpLsCAJhazAzGdp//YBUSaj0ceW6a3kDBDNRrq5CRwyCS0wBiL1ig=="
+  "resolved" "https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-1.8.6.tgz"
+  "version" "1.8.6"
   dependencies:
     "immer" "^9.0.7"
     "redux" "^4.1.2"
@@ -856,9 +856,23 @@
   "version" "1.1.4"
 
 "@socket.tech/ll-core@^0.1.10", "@socket.tech/ll-core@^0.1.14":
-  "integrity" "sha512-DZXxUpanf1ZBYwERy2H3ntJaZ+6o5Vi+ssZx4bjdCrX7Pf/vKS+RoDVBo6hpiopLxXbD9XQ2Q9NLdwFSBhxY1w=="
-  "resolved" "https://registry.npmjs.org/@socket.tech/ll-core/-/ll-core-0.1.19.tgz"
-  "version" "0.1.19"
+  "integrity" "sha512-UXUtJcz6X+XkPQnxvm0OWECA8Xn1dtmGJtFMYNb96rh4yO19dhqaYICs6hI+ApyuWWY3I1Jhn4/wcIMgtfZcDw=="
+  "resolved" "https://registry.npmjs.org/@socket.tech/ll-core/-/ll-core-0.1.20.tgz"
+  "version" "0.1.20"
+
+"@socket.tech/plugin@^1.0.0":
+  "integrity" "sha512-zawnGtPw+wGf3C89JQbqq6+2a+ROrKPCDkU7d4EfkTGH59gjBFgg5UAFQv4P1BVUIwGrDGnppArjEogtT/LUCg=="
+  "resolved" "https://registry.npmjs.org/@socket.tech/plugin/-/plugin-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "@react-spring/web" "^9.5.0"
+    "@reduxjs/toolkit" "^1.8.2"
+    "@socket.tech/ll-core" "^0.1.10"
+    "@socket.tech/socket-v2-sdk" "^1.21.0"
+    "ethers" "^5.6.9"
+    "react-feather" "^2.0.10"
+    "react-redux" "^8.0.2"
+    "swr" "^1.3.0"
 
 "@socket.tech/socket-v2-sdk@^1.21.0":
   "integrity" "sha512-HymWCxG07Evc/LqE4FU9Uzt3GXbZSNT5gFEDGKFVGMUEMZu5V0MG1XORD4p3mrapqDO0e8N5VlUIRgyP3ezmzg=="
@@ -870,20 +884,6 @@
     "ethers" "^5.6.5"
     "form-data" "^4.0.0"
     "tslib" "^2.4.0"
-
-"@socket.tech/widget@file:socket.tech-widget-0.1.4-updated.tgz":
-  "integrity" "sha512-JOAGxE839KQ7FHPG+9P7149dcVOO+xNzbos9S+JomsP4i+c17lKjmLajDEhKNE/q83aEVDDiehcO5/j9FBXGNA=="
-  "resolved" "file:socket.tech-widget-0.1.4-updated.tgz"
-  "version" "0.1.4-updated"
-  dependencies:
-    "@react-spring/web" "^9.5.0"
-    "@reduxjs/toolkit" "^1.8.2"
-    "@socket.tech/ll-core" "^0.1.10"
-    "@socket.tech/socket-v2-sdk" "^1.21.0"
-    "ethers" "^5.6.9"
-    "react-feather" "^2.0.10"
-    "react-redux" "^8.0.2"
-    "swr" "^1.3.0"
 
 "@solana/buffer-layout@^4.0.0":
   "integrity" "sha512-lR0EMP2HC3+Mxwd4YcnZb0smnaDw7Bl2IQWZiTevRH5ZZBZn6VRWn3/92E3qdU4SSImJkA6IDHawOHAnx/qUvQ=="

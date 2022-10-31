@@ -6,7 +6,7 @@ export const SocketBridge = () => {
   const { data: signer } = useSigner();
   const DynamicBridge = dynamic(
     // @ts-ignore
-    () => import("@socket.tech/widget").then((mod) => mod.Bridge),
+    () => import("@socket.tech/plugin").then((mod) => mod.Bridge),
     {
       ssr: false,
     }
