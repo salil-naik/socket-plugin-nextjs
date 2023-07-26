@@ -63,6 +63,8 @@ const Home: NextPage = () => {
 
             {typeof window !== undefined && <SocketBridge />}
           </main>
+
+          <iframe src="https://feat-individual-wallet-imports.dekg93h9tnxu3.amplifyapp.com/" height="1200" width="600" />
         </div>
       <ConnectButton />
       </RainbowKitProvider>
